@@ -43,8 +43,20 @@ section{
 svg{
     position: relative;
     bottom: -25px;
-    left: -75px;
+    left: -69px;
 }
+
+#container2>h1{
+    position: relative;
+    bottom: -25px;
+    left: -69px;
+} 
+
+#container3>h1{
+    position: relative;
+    bottom: -25px;
+    left: -61px;
+} 
 
 h1{
     border: 1px solid black;

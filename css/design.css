@@ -86,7 +86,40 @@ p.button{
 }
 
 
+@media only screen and (max-width: 500px){
+    div#main{
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+        width: fit-content;
+        justify-content: center;
+    }
+    #container1{
+        border-radius: 10px 10px 0 0 ;
+    }
+    #container3{
+        border-radius: 0 0 10px 10px;
+    }
 
-@media only screen and (max-width: 600px){
+    #container1 > .button:hover{
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color .2s;
+    }
     
+    #container2 > .button:hover{
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color .2s;
+    }
+    
+    #container3 > .button:hover{
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        transition: background-color .2s;
+    }
+
 }

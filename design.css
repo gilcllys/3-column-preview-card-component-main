@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 body{
-    margin: 0;
     margin: 10px;
 }
 
 div#main{
     display: flex;
     margin: 100px auto;
+    width: fit-content;
     justify-content: center;
 }
 
@@ -18,17 +18,57 @@ section{
 
 #container1{
     background-color: hsl(31, 77%, 52%);
-    padding: 10px auto;
+    border-radius: 10px 0 0 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 
-#container1 > h1{
-    margin: 10px auto;
-}   
 
 #container2{
     background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container3{
-    background-color:hsl(179, 100%, 13%) ;
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg{
+    position: relative;
+    bottom: -25px;
+    left: -75px;
+}
+
+h1{
+    border: 1px solid black;
+    position: relative;
+    left: -64px;
+    bottom: -26px;
+}
+
+p{  
+    position: relative;
+    bottom: -30px;
+    border: 1px solid black;
+    width: 200px;
+    height:fit-content;
+    margin: 1px auto;
+}
+
+p.button{
+    position: relative;
+    bottom: -120px;
+    left: -45px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100px;
+    padding: 11px;
+    border-radius: 20px;
+    text-align: center;
 }

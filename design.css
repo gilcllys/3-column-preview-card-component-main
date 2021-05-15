@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 body{
-    margin: 10px;
+    margin: 0;
+    height: 0;
 }
 
 div#main{
@@ -13,7 +14,7 @@ div#main{
 
 section{
     width: 300px;
-    height: 400px;
+    height: 440px;
 }
 
 #container1{
@@ -59,7 +60,6 @@ svg{
 } 
 
 h1{
-    border: 1px solid black;
     position: relative;
     left: -64px;
     bottom: -26px;
@@ -68,7 +68,6 @@ h1{
 p{  
     position: relative;
     bottom: -30px;
-    border: 1px solid black;
     width: 200px;
     height:fit-content;
     margin: 1px auto;
@@ -76,11 +75,12 @@ p{
 
 p.button{
     position: relative;
-    bottom: -120px;
-    left: -45px;
+    bottom: -90px;
+    left: -32px;
     background-color: hsl(0, 0%, 95%);
-    width: 100px;
+    width: 116px;
+    height: 21px;
     padding: 11px;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
 }
